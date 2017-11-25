@@ -1,7 +1,7 @@
-
+#Function to create dictionary of common words that need to be ignore_words
+#when checking for new words like a, an, the, is, if,etc
 def ignore_words():
     words={};
-    #print("In ignore.txt");
     file=open("ignore.txt","r");
     for w in file:
         string = w.split('\n');
