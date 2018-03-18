@@ -2,7 +2,7 @@
 This project involves extracting the tweets from the twitter page on a particular topic and calculating its sentiment value using AFINN-111.txt file.
 The approach of the project is to select a particular tweet, remove all the unwanted characters from the tweet, find out the total value of the tweet by summing the values of the individual words whose values are already defined in AFINN-111.txt file. The new words encountered are also to be provided new values defining their sentiment value. For this I calculae the sum of the values of the tweet in which the new words appeared and then divided the sum by the number of different tweets in which they appeared.
 
-# Explanantion for different files
+## Explanantion for different files
 <dl>
 	<dt>create_dictionary.py</dt>
 	<dd>This code is used to create a python dictionary out of the word present in AFINN-111.txt. The words are used as the keys while their sentiment values are used as values in the dictionary</dd>
@@ -15,4 +15,4 @@ The approach of the project is to select a particular tweet, remove all the unwa
 	<dt>tweet_sentiment.py</dt>
 	<dd>This code is used to fin the overall sentiment value of each individual tweet on the basis of the different words present in the tweet.</dd>
 </dl>
-	For any suggestions or query , feel free to contact me <link>hardikgaur@geu.ac.in</link>
+	For any suggestions or query , feel free to contact me at [hardikgaur@geu.ac.in](hardikgaur@geu.ac.in)
