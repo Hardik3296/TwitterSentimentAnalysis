@@ -15,4 +15,4 @@ The approach of the project is to select a particular tweet, remove all the unwa
 	<dt>tweet_sentiment.py</dt>
 	<dd>This code is used to fin the overall sentiment value of each individual tweet on the basis of the different words present in the tweet.</dd>
 </dl>
-	For any suggestions or query , feel free to contact me at hardikgaur@geu.ac.in
+	For any suggestions or query , feel free to contact me at @hardikgaur@geu.ac.in
